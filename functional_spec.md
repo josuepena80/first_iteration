@@ -1,13 +1,9 @@
-<DOCTYPE!html>
+<!DOCTYPE html>
 <html>
 
 <head>
 
-<title>
-
-<link href= rel= > 
-
-</title>
+<title>Functional Specs</title>
 
 </head>
 
