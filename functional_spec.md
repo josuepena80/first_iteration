@@ -21,7 +21,7 @@
 <h2>Functional Requirements</h2>
 <ul>
 
-<li>The Tracker must set the user on a good track by providing relevant information such as date and time, so the user can better asses the duration of their symptoms.</li>
+<li>The Tracker must set the user on a good track by providing relevant information such as date, so the user can better asses the duration of their symptoms.</li>
 <li>The Tracker must prompt the user for their input.
 <li>The CLI must display wether the symptom was correctly added to the record, and respond to invalid attemps gracefully.</li>
 <li>The Symptom Tracker must allow the user to include the following in each report:
@@ -36,9 +36,7 @@
 </ol>
 </li>
 <li>The Tracker must allow the user to add more symptoms after each use.</li>
-
-
-
+<li>The tracker must allow the user to view their records.</li>
 </ul>
 
 </body>
