@@ -13,32 +13,44 @@
 
 <body>
 
-<h1>Functional Requirements</h1>
+<h1>Symptom Tracker CLI Functional Specification</h1>
 
-<p>File in your repository that outlines the functional requirements of your CLI app. This document should include:</p>
+<p>This CLI allows the user to record their symptoms for later use by a healthcare professional.</p>
 
+<h2>Basic Operations</h2>
 <ul>
-<li>Introduction: Brief description of the application. What problem does it solve, or what functionality does it provide?</li>
+<li>User Story: a user of this CLI would want to keep track of their symptoms in order to provide a full, useful description of them to their healthcare provider.</li>
 
-<li>User Stories: Describe the features from the user’s perspective. For example, As a [user type], I want to [do something], so that [I achieve some goal].</li>
+<li>A user would also need to be able to destroy previous records, in order to keep a record that is in accordance with their interests.</li>
 
-<li>And potentially other functional requirements like user interface, commands, etc.</li>
-
-<li> Your own Ruby class (with an initialize method) </li>
-
-<li> Attributes for an instance variable (eg use @ with attr_accessor, attr_writer, attr_reader, and/or your own custom getters/setters)</li>
-
-<li>Accept user input from the terminal:</li>
-
-<ul>
-<li>gets</li>
-
-<li>chomp</li>
 </ul>
+<h2>Continuous Operations</h2>
+<ul>
+<li>The user would want to record several symptoms without restarting the app, in order to make its use less tedious.</li>
 
-<li>A meaningful repo name with a README.md that includes details on what your CLI app does and how to use it.</li>
+</ul>
+<h2>Functional Requirements</h2>
+<ul>
 
-<li> Include 1 or 2 tests as described in Testing your code with MiniTest 🧪. Be sure to put your test(s) in a folder named tests/.</li>
+<li>The Tracker must set the user on a good track by providing relevant information such as date and time, so the user can better asses the duration of their symptoms.</li>
+<li>The Tracker must prompt the user for their input.
+<li>The CLI must display wether the symptom was correctly added to the record, and respond to invalid attemps gracefully.</li>
+<li>The Symptom Tracker must allow the user to include the following in each report:
+
+<ol>
+
+<li>Date and estimated time</li>
+<li>Description of the symptom</li>
+<li>Estimated bodily system affected</li>
+<li>Duration of the symptom</li>
+
+</ol>
+</li>
+<li>The Tracker must allow the user to add more symptoms after each use.</li>
+
+
+
+</ul>
 
 </body>
 </hmtl>
