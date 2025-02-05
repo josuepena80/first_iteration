@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-
-<title>Functional Specs</title>
-
-</head>
-
 <body>
 
 <h1>Symptom Tracker CLI Functional Specification</h1>
